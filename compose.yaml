@@ -1,0 +1,6 @@
+services:
+  img:
+    build: .
+    container_name: basicflask-crud
+    ports:
+      - "5000:5000"
