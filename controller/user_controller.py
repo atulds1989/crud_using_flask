@@ -3,8 +3,7 @@ from flask import request, render_template, url_for
 from model.user_model import User_model
 
 class UserController:
-    def __init__(self, app):
-        self.app = app
+    def __init__(self):
         self.obj = User_model()
 
     def user_getall_controller(self):
