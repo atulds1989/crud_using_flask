@@ -1,0 +1,13 @@
+version: '3.11.6'
+services:
+  web:
+    image: crudflaskapp
+    build: .
+    container_name: basicflask-crud
+    ports:
+      - "5000:5000"
+  # img:
+  #   build: .
+  #   container_name: basicflask-crud
+  #   ports:
+  #     - "5000:5000"
